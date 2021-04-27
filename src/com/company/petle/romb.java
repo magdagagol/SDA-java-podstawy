@@ -14,21 +14,13 @@ public class romb {
             System.out.println();
         }
 
-        for(int i=7; i>0; i--){
+        for(int i=0; i<7; i++){
+            //System.out.print("*");
             for(int k=1; k<i; k++){
-                System.out.print("k" + k);
                 System.out.print("*");
             }
             System.out.println();
         }
-
-        /*
-        for(int j=1; j<7; j++){
-            for(int k=0; k<j; k++){
-                System.out.print("-");
-            }
-            System.out.println();
-        }*/
 
     }
 }
